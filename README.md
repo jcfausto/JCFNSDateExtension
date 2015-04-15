@@ -19,3 +19,8 @@ date.endOfYear() -> NSDate
 ```
 
 ### Demo Project
+
+The demo project shows how you can use the extension.
+It presents the date in a localized for by using a NSDateFormatter.
+
+![Alt text](JCFNSDateExtensionDemo.png "Demo Application Screenshot")
