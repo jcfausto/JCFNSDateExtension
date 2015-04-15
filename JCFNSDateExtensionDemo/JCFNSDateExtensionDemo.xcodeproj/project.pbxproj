@@ -1,0 +1,436 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		310F10AD1ADF14F40042DFD6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 310F10AC1ADF14F40042DFD6 /* AppDelegate.swift */; };
+		310F10AF1ADF14F40042DFD6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 310F10AE1ADF14F40042DFD6 /* ViewController.swift */; };
+		310F10B21ADF14F40042DFD6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 310F10B01ADF14F40042DFD6 /* Main.storyboard */; };
+		310F10B41ADF14F40042DFD6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 310F10B31ADF14F40042DFD6 /* Images.xcassets */; };
+		310F10B71ADF14F40042DFD6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 310F10B51ADF14F40042DFD6 /* LaunchScreen.xib */; };
+		310F10C31ADF14F40042DFD6 /* JCFNSDateExtensionDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 310F10C21ADF14F40042DFD6 /* JCFNSDateExtensionDemoTests.swift */; };
+		310F10CE1ADF1A600042DFD6 /* JCFNSDateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 310F10CD1ADF1A600042DFD6 /* JCFNSDateExtension.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		310F10BD1ADF14F40042DFD6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 310F109F1ADF14F40042DFD6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 310F10A61ADF14F40042DFD6;
+			remoteInfo = JCFNSDateExtensionDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		310F10A71ADF14F40042DFD6 /* JCFNSDateExtensionDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JCFNSDateExtensionDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		310F10AB1ADF14F40042DFD6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		310F10AC1ADF14F40042DFD6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		310F10AE1ADF14F40042DFD6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		310F10B11ADF14F40042DFD6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		310F10B31ADF14F40042DFD6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		310F10B61ADF14F40042DFD6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		310F10BC1ADF14F40042DFD6 /* JCFNSDateExtensionDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JCFNSDateExtensionDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		310F10C11ADF14F40042DFD6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		310F10C21ADF14F40042DFD6 /* JCFNSDateExtensionDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JCFNSDateExtensionDemoTests.swift; sourceTree = "<group>"; };
+		310F10CD1ADF1A600042DFD6 /* JCFNSDateExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JCFNSDateExtension.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		310F10A41ADF14F40042DFD6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		310F10B91ADF14F40042DFD6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		310F109E1ADF14F40042DFD6 = {
+			isa = PBXGroup;
+			children = (
+				310F10A91ADF14F40042DFD6 /* JCFNSDateExtensionDemo */,
+				310F10BF1ADF14F40042DFD6 /* JCFNSDateExtensionDemoTests */,
+				310F10A81ADF14F40042DFD6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		310F10A81ADF14F40042DFD6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				310F10A71ADF14F40042DFD6 /* JCFNSDateExtensionDemo.app */,
+				310F10BC1ADF14F40042DFD6 /* JCFNSDateExtensionDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		310F10A91ADF14F40042DFD6 /* JCFNSDateExtensionDemo */ = {
+			isa = PBXGroup;
+			children = (
+				310F10CC1ADF1A4E0042DFD6 /* Extensions */,
+				310F10AC1ADF14F40042DFD6 /* AppDelegate.swift */,
+				310F10AE1ADF14F40042DFD6 /* ViewController.swift */,
+				310F10B01ADF14F40042DFD6 /* Main.storyboard */,
+				310F10B31ADF14F40042DFD6 /* Images.xcassets */,
+				310F10B51ADF14F40042DFD6 /* LaunchScreen.xib */,
+				310F10AA1ADF14F40042DFD6 /* Supporting Files */,
+			);
+			path = JCFNSDateExtensionDemo;
+			sourceTree = "<group>";
+		};
+		310F10AA1ADF14F40042DFD6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				310F10AB1ADF14F40042DFD6 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		310F10BF1ADF14F40042DFD6 /* JCFNSDateExtensionDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				310F10C21ADF14F40042DFD6 /* JCFNSDateExtensionDemoTests.swift */,
+				310F10C01ADF14F40042DFD6 /* Supporting Files */,
+			);
+			path = JCFNSDateExtensionDemoTests;
+			sourceTree = "<group>";
+		};
+		310F10C01ADF14F40042DFD6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				310F10C11ADF14F40042DFD6 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		310F10CC1ADF1A4E0042DFD6 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				310F10CD1ADF1A600042DFD6 /* JCFNSDateExtension.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		310F10A61ADF14F40042DFD6 /* JCFNSDateExtensionDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 310F10C61ADF14F40042DFD6 /* Build configuration list for PBXNativeTarget "JCFNSDateExtensionDemo" */;
+			buildPhases = (
+				310F10A31ADF14F40042DFD6 /* Sources */,
+				310F10A41ADF14F40042DFD6 /* Frameworks */,
+				310F10A51ADF14F40042DFD6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JCFNSDateExtensionDemo;
+			productName = JCFNSDateExtensionDemo;
+			productReference = 310F10A71ADF14F40042DFD6 /* JCFNSDateExtensionDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		310F10BB1ADF14F40042DFD6 /* JCFNSDateExtensionDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 310F10C91ADF14F40042DFD6 /* Build configuration list for PBXNativeTarget "JCFNSDateExtensionDemoTests" */;
+			buildPhases = (
+				310F10B81ADF14F40042DFD6 /* Sources */,
+				310F10B91ADF14F40042DFD6 /* Frameworks */,
+				310F10BA1ADF14F40042DFD6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				310F10BE1ADF14F40042DFD6 /* PBXTargetDependency */,
+			);
+			name = JCFNSDateExtensionDemoTests;
+			productName = JCFNSDateExtensionDemoTests;
+			productReference = 310F10BC1ADF14F40042DFD6 /* JCFNSDateExtensionDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		310F109F1ADF14F40042DFD6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = jcfausto;
+				TargetAttributes = {
+					310F10A61ADF14F40042DFD6 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					310F10BB1ADF14F40042DFD6 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = 310F10A61ADF14F40042DFD6;
+					};
+				};
+			};
+			buildConfigurationList = 310F10A21ADF14F40042DFD6 /* Build configuration list for PBXProject "JCFNSDateExtensionDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 310F109E1ADF14F40042DFD6;
+			productRefGroup = 310F10A81ADF14F40042DFD6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				310F10A61ADF14F40042DFD6 /* JCFNSDateExtensionDemo */,
+				310F10BB1ADF14F40042DFD6 /* JCFNSDateExtensionDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		310F10A51ADF14F40042DFD6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				310F10B21ADF14F40042DFD6 /* Main.storyboard in Resources */,
+				310F10B71ADF14F40042DFD6 /* LaunchScreen.xib in Resources */,
+				310F10B41ADF14F40042DFD6 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		310F10BA1ADF14F40042DFD6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		310F10A31ADF14F40042DFD6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				310F10AF1ADF14F40042DFD6 /* ViewController.swift in Sources */,
+				310F10CE1ADF1A600042DFD6 /* JCFNSDateExtension.swift in Sources */,
+				310F10AD1ADF14F40042DFD6 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		310F10B81ADF14F40042DFD6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				310F10C31ADF14F40042DFD6 /* JCFNSDateExtensionDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		310F10BE1ADF14F40042DFD6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 310F10A61ADF14F40042DFD6 /* JCFNSDateExtensionDemo */;
+			targetProxy = 310F10BD1ADF14F40042DFD6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		310F10B01ADF14F40042DFD6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				310F10B11ADF14F40042DFD6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		310F10B51ADF14F40042DFD6 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				310F10B61ADF14F40042DFD6 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		310F10C41ADF14F40042DFD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		310F10C51ADF14F40042DFD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		310F10C71ADF14F40042DFD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JCFNSDateExtensionDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		310F10C81ADF14F40042DFD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JCFNSDateExtensionDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		310F10CA1ADF14F40042DFD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = JCFNSDateExtensionDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JCFNSDateExtensionDemo.app/JCFNSDateExtensionDemo";
+			};
+			name = Debug;
+		};
+		310F10CB1ADF14F40042DFD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = JCFNSDateExtensionDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JCFNSDateExtensionDemo.app/JCFNSDateExtensionDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		310F10A21ADF14F40042DFD6 /* Build configuration list for PBXProject "JCFNSDateExtensionDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				310F10C41ADF14F40042DFD6 /* Debug */,
+				310F10C51ADF14F40042DFD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		310F10C61ADF14F40042DFD6 /* Build configuration list for PBXNativeTarget "JCFNSDateExtensionDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				310F10C71ADF14F40042DFD6 /* Debug */,
+				310F10C81ADF14F40042DFD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		310F10C91ADF14F40042DFD6 /* Build configuration list for PBXNativeTarget "JCFNSDateExtensionDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				310F10CA1ADF14F40042DFD6 /* Debug */,
+				310F10CB1ADF14F40042DFD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 310F109F1ADF14F40042DFD6 /* Project object */;
+}
