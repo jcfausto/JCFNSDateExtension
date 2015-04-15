@@ -9,9 +9,13 @@ in most cases will be the gregorian calendar.
 
 
 ### Available Helpers
+```Swift
 date.beginningOfWeek() -> NSDate
 date.endOfWee() -> NSDate
 date.beginningOfMonth() -> NSDate
 date.endOfMonth() -> NSDate
 date.beginningOfYear() -> NSDate
 date.endOfYear() -> NSDate
+```
+
+### Demo Project
