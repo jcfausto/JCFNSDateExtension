@@ -20,7 +20,8 @@ date.endOfYear() -> NSDate
 
 ### Demo Project
 
-The demo project shows how you can use the extension.
-It presents the date in a localized for by using a NSDateFormatter.
+-- Developed with Xcode 6.3 and iOS SDK 8.3 -- 
+
+The demo project shows how you can use the extension by presenting a table view with the helpers result data in a localized form by using a NSDateFormatter.
 
 ![Alt text](JCFNSDateExtensionDemo.png "Demo Application Screenshot")
