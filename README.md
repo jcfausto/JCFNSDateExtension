@@ -29,3 +29,5 @@ The demo project shows how you can use the extension by presenting a simple tabl
 ##License
 
 [Released under MIT license](http://jcfausto.mit-license.org)
+
+*April, 2015*
