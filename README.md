@@ -25,3 +25,7 @@ date.endOfYear() -> NSDate
 The demo project shows how you can use the extension by presenting a simple table view app showing the helpers and its results formatted with NSDateFormatter to present the dates considering the your current timezone.
 
 ![Alt text](JCFNSDateExtensionDemo.png "Demo Application Screenshot")
+
+##License
+
+[Released under MIT license](http://jcfausto.mit-license.org)
